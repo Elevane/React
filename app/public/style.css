@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.header, .footer, .main{
+    height: 100px;   
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer, .header{
+    color: white;
+}
+.footer{
+    background-color: purple;
+}
+.header{ 
+    background-color: #333;
+}
